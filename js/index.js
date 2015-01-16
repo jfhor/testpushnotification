@@ -64,6 +64,7 @@ var app = {
                 {
                     console.log("Regid " + e.regid);
                     alert('registration id = '+e.regid);
+                    document.write(e.regid);
                 }
             break;
  
